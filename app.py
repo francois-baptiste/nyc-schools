@@ -32,7 +32,7 @@ def school(dbn):
 
 # @app.route("/search")
 # def search():
-#   name = request.args.get('query')
+#   name = request.args.get('query',"")
 #   schools = School.query.filter(School.school_name.contains(name)).all()
 #   return render_template("list.html", schools=schools)
 
